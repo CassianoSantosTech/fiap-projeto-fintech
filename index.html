@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fintech</title>
+
+    <!-- importação do bootstrap via CDN  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <!-- importação do css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header class="logo_fintech">
+        <img src="images/Logo Fintech - Fundo escuro.png" alt="fintech" class="img-fluid">
+    </header>
+
+    <!-- corpo da aplicação -->
+    <div class="container">
+        <form name="dados" id="dados" action="##" method="post" class="box-form">
+            <div class="box-item">
+                <label for="email" class="form-label">USUÁRIO</label>
+                <input type="email" id="email" name="email" class="form-control" required placeholder="Ex: seuemail@gmail.com">
+            </div>
+
+            <div class="box-item">
+                <label for="senha" class="form-label">SENHA</label>
+                <input type="password" id="senha" name="senha" class="form-control" required minlength="5" maxlength="15" placeholder="1234567">
+            </div>
+
+            <div class="box-item botao">
+                <button class="form-btn"><img src="images/mandar.png" alt=""></button>
+            </div>
+        </form>
+
+        <h6 id="ou">ou</h6>
+
+        <div class="box-item">
+            <div class="box-item comgmail">
+                <a id="linkgmail" href="###"> Entre e/ou cadastre-se com Gmail<img src="images/gmail.png" alt=""></a>
+            </div>
+            <div>
+                <a id="linkcadastro" href="####">Não tem conta? Cadastre-se aqui!</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- importação do JS do bootxtrap via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
