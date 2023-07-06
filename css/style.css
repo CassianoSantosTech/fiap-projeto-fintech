@@ -1,0 +1,121 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+/* ----------- PAGINA DE CADASTRO --------------- */
+
+.logo_fintech{
+    text-align: center;
+}
+
+.box-item {
+    text-align: center;
+}
+
+:root {
+    --color-azul-fintech: rgba(170, 255, 245, 1);
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-form {
+    margin: .5rem
+}
+.box-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: .5rem 0;
+    max-width: 100vw;
+    min-width: 30vw;
+}
+.form-label {
+    font-weight: 600;
+    margin: 0.5rem 0;
+    text-align: left;
+}
+.form-control {
+    width: 100%;
+    border: 2px;
+    border-style: solid;
+    background-color: black;
+    height: 3.5rem;
+    border-radius: 8px;
+    border-color: var(--color-azul-fintech);
+    padding-left: 10px;
+    font-size: 1.1rem;
+}
+.form-btn {
+    margin: 0.8rem 0;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border-style: solid; 
+}
+
+.botao {
+    align-items: end;
+}
+button:hover {
+    color: black;
+    border-color: white;
+    background-color: rgba(240, 248, 255, 0.39);
+}
+
+#ou {
+    font-weight: lighter;
+}
+
+.comgmail {
+    border: 2px solid;
+    border-color: var(--color-azul-fintech);
+    border-radius: 8px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    color: darkgrey;
+    margin: 10px;
+    padding: 5px;
+}
+#linkgmail {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.2em;
+    color: white;
+}
+a img {
+    width: 1.5rem;
+    margin: 10px;
+}
+#linkgmail:hover {
+    color: rgb(113, 114, 114);;
+}
+
+#linkcadastro {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.2em;
+    color: white;
+}
+#linkcadastro:hover {
+    margin: 5;
+    color: rgb(113, 114, 114);;
+}
