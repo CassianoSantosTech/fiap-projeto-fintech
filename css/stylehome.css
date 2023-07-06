@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+/* ------------ página - visão geral ---------- */
+
+:root {
+    --color-azul-fintech: rgba(170, 255, 245, 1);
+}
+
+.barrapesquisa {
+    background-color: black;
+}
+
+.logofintech {
+    width: 60%;
+}
+
+.box1 {
+    width: fit-content;
+    border: 2px solid;
+    border-color: var(--color-azul-fintech);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.visaogeral {
+    padding-top: 3px;
+}
+
+.box2 {
+    padding-top: 100px;
+}
+
+.periodo:hover {
+    color: black;
+}
+
+#periodo {
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+
+}
+
+#resultados {
+    margin-left: 0;
+}
+
+#saldo {
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;    
+}
+
+.linkacoes {
+    color: rgba(255, 255, 255, 0.481);
+}
+
+.linkacoes:hover {
+    color: white;
+}
+
+.icon_receita {
+    width: 2rem;
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+#rodape {
+    border: solid 1px;
+    margin: 0;
+    padding-top: 0;
+}
+
+.linkrodape {
+    color: rgba(255, 255, 255, 0.481);
+}
+
+.linkrodape:hover {
+    color: white;
+}
